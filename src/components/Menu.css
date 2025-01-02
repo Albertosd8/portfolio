@@ -1,0 +1,14 @@
+.menu-secondpart{
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    text-align: center;
+    font-size:1.5vw;
+    text-decoration: none; 
+  }
+
+.menu-logo{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: clamp(1.2rem, calc(1.7 / 80 * 100vw), 1.7rem);
+  text-decoration: none;
+}

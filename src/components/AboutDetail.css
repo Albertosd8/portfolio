@@ -1,0 +1,55 @@
+.AboutDetailBackground{
+    min-height: 100vh;
+    min-width: 100vw;
+    max-width: 100vw;
+    background-color: rgb(20, 20, 20);
+}
+
+.AboutDetailHeading{
+    color:white;
+    font-size:5vw;
+    font-family: "Times New Roman";
+}
+
+.AboutDetailHeadingMobile{
+    color:white;
+    font-size: clamp(2.3rem, calc(2.8 / 80 * 100vw), 2.7rem);
+    font-family: "Times New Roman";
+}
+
+.aboutImage{
+    width: 20vw;
+    height: 60vh;
+    background-color: rgb(188, 188, 188);
+}
+
+.ContainerSpaceAboutDetail{
+    height: 80vh;
+}
+
+.ColumnImagesAboutDetail{
+    position: relative;
+}
+
+.aboutImage2{
+    width: 25vw;
+    height: 55vh;
+    position: absolute;
+    z-index: 2;
+    top: 20vh;
+    left: 15vw;
+    background-color: rgb(158, 61, 42);
+}
+
+.aboutImage3{
+    width: 18vw;
+    height: 38vh;
+    position: absolute;
+    z-index: 0;
+    left: 2vw;
+    top: 10vh;
+    background-image: url('../image2.png');
+    background-position: center;
+    background-size: cover;
+    /* background-color: rgb(165, 191, 38); */
+}

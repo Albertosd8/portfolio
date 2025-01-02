@@ -1,0 +1,54 @@
+.projects{
+    min-height: 100vh;
+    min-width: 100vw;
+    max-width: 100vw;
+    /* background-color: rgb(35, 35, 35); */
+}
+
+.projects-heading{
+    color:white;
+    font-size: clamp(2rem, calc(2.8 / 80 * 100vw), 2.7rem);
+    font-family: "Times New Roman";
+    overflow: auto;
+}
+
+.project-container-header{
+    overflow: hidden;
+}
+
+.projects-heading-line{
+    color:white;
+    border:  1.8px solid rgb(255, 255, 255);
+    opacity: 80%;
+}
+
+.projects-empty-space{
+    height:15vh;
+}
+
+.project-empty-separation{
+    height:5vh;
+}
+
+.project-image{
+    width: 100%;
+    min-height: 5vh;
+    height: 40vh;
+    max-height: 40vh;
+    background-color: rgb(188, 188, 188);
+}
+
+.project-title-number{
+    color:white;
+    font-size:1.2vw;
+    font-size: clamp(0.8rem, calc(1.2 / 80 * 100vw), 1.2rem);
+}
+.project-title-text{
+    color:white;
+    font-size: clamp(2rem, calc(2.5 / 80 * 100vw), 2.5rem);
+}
+
+.project-description{
+    font-size: clamp(1.5rem, calc(1.7 / 80 * 100vw), 1.7rem);
+    font-weight: normal;
+}

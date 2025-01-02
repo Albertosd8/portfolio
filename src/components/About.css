@@ -1,0 +1,23 @@
+@media only screen and (orientation: landscape) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+.about{
+    min-height: 100vh;
+    min-width: 100vw;
+    /* overflow:hidden; */
+    background-color: rgb(30, 30, 30);
+}
+
+.text-about{
+    color: white;
+    font-weight: lighter;
+    font-size: clamp(1.7rem, calc(2 / 80 * 100vw), 2rem);
+}
+
+.ContainerSpaceAbout{
+    height: 80vh;
+    width: 30vw;
+}

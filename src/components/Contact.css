@@ -1,0 +1,92 @@
+.ContactBackground{
+    min-height: 100vh;
+    min-width: 100vw;
+    max-width: 100vw;
+}
+
+.contactSubheadingSpace{
+    height: 43vh;
+}
+
+.contactSpace{
+    height: 15vh;
+}
+
+.ContactHeading{
+    color:white;
+    font-size: clamp(4rem, calc(6 / 80 * 100vw), 6rem);
+    font-weight: bolder;
+    overflow: hidden;
+}
+
+.ContactHeadingMobile{
+    color:white;
+    font-size: clamp(4.3rem, calc(5 / 100 * 100vw), 5rem);
+    font-weight: bolder;
+}
+
+.contactEmailTextMobile{
+    color:white;
+    font-size: 6.2vw;
+    font-weight: bolder;
+}
+
+.contact-info{
+    border-top: 1px white solid;
+}
+
+.contact-email{
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.8s ease-in-out;
+    border-bottom: 2px solid transparent;
+    position: relative;
+    margin: 0 auto;
+    width: 0%;
+} 
+.contact-email:hover{
+    border-bottom: 3px solid rgb(255, 255, 255);
+    width: 100%;
+}
+
+.contactEmailText{
+    font-size:2.7vw;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+}
+
+.logo{
+    max-width: 35px;
+    max-height: 25px;
+    width: 35px;
+    height: 25px;
+    object-fit: fill;
+}
+.logo2{
+    max-width: 25px;
+    max-height: 25px;
+    width: 25px;
+    height: 25px;
+    object-fit: fill;
+}
+
+.text-contact{
+    font-weight: normal;
+    color:white;
+    font-size: clamp(1.2rem, calc(1.3 / 80 * 100vw), 1.3rem);
+    text-decoration: none;
+}
+
+.text-contact-mobile{
+    font-weight: normal;
+    color:white;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.text-contact-mobile2{
+    font-weight: normal;
+    color:white;
+    font-size: 1rem;
+}
